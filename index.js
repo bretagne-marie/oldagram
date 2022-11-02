@@ -1,4 +1,4 @@
-import { postContent } from "/data.js"
+import { postContent } from "/oldagram/data.js"
 
 renderPosts()
 
