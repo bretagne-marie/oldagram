@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+
 export const postContent = [
     {
         name: "Dorothea Tanning",
@@ -8,7 +10,7 @@ export const postContent = [
         comment: "casual look for a casual monday, nbd",
         isLiked: false,
         likes: 15202,
-        uuid: "dorothea"
+        uuid: uuidv4()
     },
     {
         name: "Frida Kahlo",
@@ -19,7 +21,7 @@ export const postContent = [
         comment: "double trouble",
         isLiked: false,
         likes: 22502,
-        uuid: "frida"
+        uuid: uuidv4()
     },
         {
         name: "Élisabeth Vigée Le Brun",
@@ -30,6 +32,6 @@ export const postContent = [
         comment: "new hat, who dis?",
         isLiked: false,
         likes: 10137,
-        uuid: "vigee"
+        uuid: uuidv4()
     }
 ]
